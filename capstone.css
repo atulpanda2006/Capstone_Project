@@ -1,0 +1,253 @@
+body{
+  background: linear-gradient(90deg, #c8e6c9, #bbdefb)
+}
+.underline:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#header {
+  color: white;
+  background-color: aqua;
+  box-sizing: border-box;
+}
+#logo{
+  background-color: rgb(183, 168, 218);
+}
+#logo:hover {
+  font-style: italic;
+  border-color: red;
+  
+}
+
+
+h3{
+  text-align: center;
+}
+nav {
+  text-align: center;
+  position: relative;
+  /* top: 45px; */
+  width: 100%;
+  height: 50px;
+  background: rgb(151, 212, 233);
+
+}
+
+#About {
+  position: absolute;
+  left:350px ;
+     padding: 12px;
+  text-decoration: none;
+  color: black;
+}
+#articles {
+  position: absolute;
+     padding: 12px;
+  left: 700px;
+  text-decoration: none;
+  color: black;
+}
+#Contact {
+  position: absolute;
+     padding: 12px;
+  right: 350px;
+  text-decoration: none;
+  color: black;
+}
+
+#About:hover,
+#articles:hover,
+#Contact:hover {
+  font-size: 20px;
+   color: #ee7001;
+ 
+}
+.head{
+  text-decoration: underline;
+}
+#Heading, #FormHeading, #Services, #content,#About, #articles, #Contact,#image {
+  transition: all 0.4s
+}
+#firstbox,#secondbox,#thirdbox{
+  margin-top: 50px;
+  width: 385px;
+  height: 200px;
+  background-color: rgb(196, 203, 203);
+  border: 1px solid black;
+  transition: 1s;
+  
+  
+}
+#fourthbox,#fifthbox,#sixthbox{
+  margin-top: 50px;
+  width: 385px;
+  height: 250px;
+  background-color: rgb(196, 203, 203);
+  border: 1px solid black;
+transition: 1s;
+}
+#firstbox:hover,#secondbox:hover,#thirdbox:hover,#fourthbox:hover,#fifthbox:hover,#sixthbox:hover{
+background-color: rgb(194, 167, 197);
+transition: all 1s;
+color:rgb(239, 255, 66);
+border: 2px solid rgb(212, 122, 76);
+transition: all 1s;
+
+}
+.imp{
+  display: flex;
+  justify-content: center;
+  
+  font-size: 30px;
+}
+.imp li::marker {
+  color: #009688;     
+  content: "✔ ";      
+  font-size: 30px;
+  
+}
+#image {
+  
+  /* background-image: url("https://images.unsplash.com/photo-1615461066159-fea0960485d5?auto=format&fit=crop&q=80&w=2516"); */
+  width: auto;
+  height: 700px;
+  background-color: rgb(166, 228, 204);
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+  box-sizing: border-box;
+  
+}
+/* #image:hover { */
+
+  /* background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240426/pngtree-a-doctor-examining-patient-vital-signs-in-medical-office-image_15672199.jpg"); */
+  /* transition-duration: 1s; */
+/* } */
+#bodyhead{
+  text-align: center;
+  box-sizing: border-box;
+}
+#bodyhead:hover {
+
+  text-decoration: underline;
+  color: tomato;
+  transition-duration: 0.4s;
+  font-size: 40px;
+}
+
+#Heading {
+  /* background: linear-gradient(90deg, #FF00A8, #9B00FF); */
+  /* border: 2px solid red; */
+  color: green;
+  font-size: 50px;
+}
+
+#content:hover {
+  color: #FF5733;
+  /* transition-duration: 2s; */
+  text-decoration: underline;
+  font-size: 30px;
+}
+#content{
+  text-align: center;
+}
+#Services:hover {
+  transition-duration: 1s;
+  color: #FF1178;
+  font-size: 26px;
+}
+#FormHeading{
+  text-align: center;
+}
+#FormHeading:hover {
+  transition-duration: 1s;
+  color: #8E44AD;
+  text-decoration: underline;
+  font-size: 55px;
+  font-style: italic;
+}
+/* .align1{ 
+ margin-left: 140px;
+}
+.align2{
+  margin-left: 140px;
+}
+.align3{
+  margin-left: 82px;
+} */
+form{
+  display: flex;
+  justify-content: center;
+  height:700px;
+  flex-direction: column;
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  padding: 40px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+input{
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: 100px;
+  text-align: center;
+  width: 160px;
+  height: 20px;
+  padding: 20px;
+}
+/* input.align {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  text-align: center;
+  font-size: 16px;
+}
+label {
+  font-weight: 600;
+  color: #333;
+} */
+
+/* Submit Button */
+#submit {
+  background: linear-gradient(90deg, #81d4fa, #4fc3f7);
+  color: white;
+  border: none;
+  width: 200px;
+  margin-right: 50px;
+  height: 40px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#submit:hover {
+  background: linear-gradient(90deg, #29b6f6, #039be5);
+}
+
+/* Footer text */
+/* footer p {
+  margin-top: 20px;
+  color: #555;
+} */
+
+/* #submit:hover{
+  
+  background-color: #FF5733;
+  border-radius: 5px;
+  padding: 10px 12px;
+  border: 2px solid snow;
+
+} */
+ footer {
+  background: linear-gradient(120deg, #e0f7fa, #ffffff);
+  padding: 40px 0;
+  text-align: center;
+}
