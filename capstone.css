@@ -1,9 +1,13 @@
-body{
-  background: linear-gradient(90deg, #c8e6c9, #bbdefb)
+body.dark {
+  background-color: #2d2d30 !important;
+  color: white !important;
+  transition: all 0.7s;
 }
-.underline:hover {
-  font-size: 20px;
-  text-decoration: underline;
+
+body.light {
+  background: linear-gradient(90deg, #c8e6c9, #bbdefb) !important;
+  color: black !important;
+  transition: all 1s;
 }
 
 #header {
@@ -193,6 +197,13 @@ input{
   text-align: center;
 }
 
+.underline{
+  color: #ee7001;
+}
+.underline:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
 
 
 @media (max-width: 768px) {
@@ -201,4 +212,56 @@ input{
     gap: 15px;
     padding: 20px 0;
   }
+}
+
+ 
+
+body.dark #firstbox,
+body.dark #secondbox,
+body.dark #thirdbox,
+body.dark #fourthbox,
+body.dark #fifthbox,
+body.dark #sixthbox {
+  background-color: #333 !important;
+  
+  color: white;
+}
+
+
+body.dark #firstbox:hover,
+body.dark #secondbox:hover,
+body.dark #thirdbox:hover,
+body.dark #fourthbox:hover,
+body.dark #fifthbox:hover,
+body.dark #sixthbox:hover {
+ background-color: rgb(194, 167, 197);
+transition: all 1s;
+color:rgb(239, 255, 66);
+/* border: 2px solid rgb(212, 122, 76); */
+ box-shadow: 7px 5px 10px tomato;
+
+}
+
+
+body.dark nav { background: #222; }
+body.dark #About{color: white;}
+body.dark #articles{color: white;}
+body.dark #Contact{color: white;}
+body.dark #header {  background: #333; }
+body.dark footer { background: #222; }
+body.dark #image{
+  background-color: black;
+}
+body.dark #About:hover{
+  color: red;
+  text-shadow: 2px 2px 5px turquoise;
+}
+body.dark #articles:hover{
+  color: red;
+  text-shadow: 2px 2px 5px turquoise;
+
+}
+body.dark #Contact:hover{
+  color: red;
+  text-shadow: 2px 2px 5px turquoise;
 }
