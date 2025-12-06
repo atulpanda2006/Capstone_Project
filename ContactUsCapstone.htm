@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            background-color: burlywood;
-        }
-        h1{
-            text-align: center;
-            font-size: 50px;
-            text-decoration: underline;
-            
-        }
-        p{
-            text-align: center;
-            font-size: 30px;
-        }
-        a{
-            font-size: 25px;
-            margin-left: 640px;
-
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Healthcare World — Contact</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>OUR CONTACT NUMBER</h1>
-<p>INDIA: +91-9289678787</p>
-<p>INDONESIA: +62 31 7261 9420</p>
-<h1>CONNECT ON WHATSAPP</h1>
-<p>INDIA:+91-9289678787</p>
-<p>INDONESIA:+62-3172619420</p>
-<h1>OUR CONTACT E-MAIL</h1>
-<a href="http://127.0.0.1:5500/C++/Capstone/Capstone_project.html">care@getwellgo.com</a>
+  <header id="site-header">
+    <div id="brand">
+      <img src="https://img.freepik.com/premium-vector/medical-care-health-care-icon-concept_313674-557.jpg?w=90" alt="logo" id="brand-logo" />
+      <div id="Heading">Healthcare World</div>
+    </div>
+
+    <nav id="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+
+    <div id="controls">
+      <button id="themeToggle">Light Mode</button>
+      <button id="menuBtn" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <h1>Contact Us</h1>
+      <p class="lead">Questions? Appointments? Get in touch.</p>
+    </section>
+
+    <section class="contact-form">
+      <form id="contactForm">
+        <label for="cname">Name</label>
+        <input id="cname" type="text" required />
+
+        <label for="cemail">Email</label>
+        <input id="cemail" type="email" required />
+
+        <label for="cmessage">Message</label>
+        <textarea id="cmessage" rows="6" required></textarea>
+
+        <button id="contactSubmit" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Healthcare World — Contact</p>
+  </footer>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
