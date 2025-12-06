@@ -1,12 +1,12 @@
 body.dark {
-  background-color: #2d2d30 !important;
-  color: white !important;
+  background-color: #2d2d30 ;
+  color: white;
   transition: all 0.7s;
 }
 
 body.light {
-  background: linear-gradient(90deg, #c8e6c9, #bbdefb) !important;
-  color: black !important;
+  background: linear-gradient(90deg, #c8e6c9, #bbdefb) ;
+  color: black ;
   transition: all 1s;
 }
 

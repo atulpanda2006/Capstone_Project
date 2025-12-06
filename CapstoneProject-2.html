@@ -3,58 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="CapstoneProject-2.css" rel="stylesheet">
+    <title>Doctors Page</title>
+
     <style>
-        body{
-  background-color: black;
-}
-img{
-  margin-left: 380px;
-}
-span{
-  color: yellowgreen;
-  text-align: center;
-  font-size: large;
-  
-}
-#Name {
-  margin-left: 580px;
-  font-size: 30px;
-  color: white;
-}
-#Heading {
-  text-align: center;
-  font-size: 50px;
-  text-decoration: blueviolet underline;
-  color: white;
-}
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 10px;
+            font-family: Arial;
+        }
+
+     
+        #Heading {
+            text-align: center;
+            font-size: 35px;
+            text-decoration: underline;
+            color: white;
+        }
+
+   
+        img {
+            width: 100%;           
+            max-width: 700px;     
+            height: auto;          
+            display: block;
+            margin: 0 auto;        
+        }
+
+        #Name {
+            text-align: center;
+            font-size: 25px;
+            margin-top: 10px;
+            color: yellowgreen;
+        }
+
+       
+        span {
+            display: block;
+            max-width: 800px;     
+            margin: 10px auto;    
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        footer h1 {
+            text-align: center;
+            color: tomato;
+            font-size: 40px;
+        }
+
+      
+        @media (max-width: 600px) {
+            #Heading {
+                font-size: 25px;
+            }
+            #Name {
+                font-size: 20px;
+            }
+            footer h1 {
+                font-size: 28px;
+            }
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1 id="Heading">Meet our professional doctors</h1>
-        <img src="https://www.mskcc.org/sites/default/files/styles/large/public/node/107173/3x2/balachandran-vinod_200713_05-1200x800.jpg" width="700px" height="500px" alt="Dr. Vinod Balachandran">
+
+    <h1 id="Heading">Meet our professional doctors</h1>
+
+  
+    <img src="https://www.mskcc.org/sites/default/files/styles/large/public/node/107173/3x2/balachandran-vinod_200713_05-1200x800.jpg" alt="">
     <h1 id="Name">Dr. Vinod Balachandran</h1>
-        <span>I am a surgical oncologist with special training in surgery to treat people for both benign (non-cancerous) and cancerous diseases of the pancreas, bile duct, gallbladder, and liver. I also research new ways to treat pancreatic cancer using the immune system. I have dedicated my career to providing exceptional care for people with pancreatic cancer, and bring deep experience, knowledge, and a relentless commitment to my patients to achieve this.I first came to Memorial Sloan Kettering Cancer Center (MSK) in 2006 as a young surgeon. The teamwork, determination, and passion to solve every problem for every patient was inspiring and unlike anything I had ever experienced. I knew MSK was extraordinary, and that I would be privileged to join its mission to end cancer for life.
+    <span>
+        I am a surgical oncologist with special training in treating diseases of the pancreas,
+        bile duct, gallbladder, and liver. I research new ways to treat pancreatic cancer
+        using the immune system. My focus is on providing exceptional care for patients.
+    </span>
 
-I bring the same intensity, determination, and dedication to every surgery I perform, and every patient I care for. Pancreatic cancer is one of the most complex and difficult diseases to treat and requires the experience of a highly specialized surgical team. At MSK, our team brings deep expertise. For every patient, we follow the MSK philosophy – do it once, do it right, and do it efficiently – from diagnosis to treatment to recovery. We also recognize that every person is unique and commit our team’s full resources to meeting their needs.
+    <br><br>
 
-In addition to performing surgeries and caring for patients, I run a research laboratory in the Immuno-Oncology Program at MSK. Here, my team is working to discover new ways to activate the immune system to treat pancreatic cancer. We are also working to convert these discoveries into new medicines that help patients. To achieve these goals rapidly, I helped found and direct The Olayan Center for Cancer Vaccines, an academic research center designed to speed up laboratory discoveries into new immunotherapies for patients.   </span>
-    </header>
-    <br>
-    <br>
-    <article>
-        
-        <img src="https://www.fortishealthcare.com/drupal-data/doctors/dr-rana-patir-6059.jpg">
-        <h1 id="Name">Dr. Rana Patir</h1>
-        <span>Dr. Rana Patir is one of the most experienced and best Neurosurgeon doctor in India. He is also an immensely accomplished spine surgeon. He holds an extensive experience of 32+ years as a neurosurgeon and has performed more than 10,000 neurosurgical procedures till date. Dr. Patir is an expert in all kinds of neuro and spine surgeries with a specialization in minimally invasive brain and spine surgery, Epilepsy surgery, pediatric neurosurgery, and neurovascular surgery. His expertise also lies in several other brain and spine procedures such as Stereotactic surgeries, deep brain stimulation surgery, Brain Aneurysms, cervical and lumbar disc replacement surgery, and craniovertebral junction surgery. Dr. Patir is among the few neurosurgeons in India to specialize in complex brain tumor surgeries and has performed several such complex and advanced surgeries in his career. Prior to joining FMRI, Dr. Rana Patir has worked with other prestigious hospitals in India including AIIMS, Sir Ganga Ram Hospital, and Max Healthcare. Along with his practice, he has also spent years in teaching and training undergraduate and postgraduate students in neurosurgery during his stint at AIIMS and Sir Ganga Ram Hospital. He holds memberships of prestigious medical institutes and has numerous published articles, abstracts, and papers to his credit in renowned medical journals. He is the best neuro surgeon in Delhi.</span>
-    </article>
+
+    <img src="https://www.fortishealthcare.com/drupal-data/doctors/dr-rana-patir-6059.jpg" alt="">
+    <h1 id="Name">Dr. Rana Patir</h1>
+    <span>
+        Dr. Rana Patir is one of the most experienced neurosurgeons in India with 32+ years
+        of experience. He specializes in minimally invasive brain and spine surgery and has
+        performed more than 10,000 neurosurgical procedures.
+    </span>
+
     <footer>
-        <h1 style="color: tomato; text-align: center; font-size: 100px;">
-            AND MANY MORE... 
-
-        </h1>
+        <h1>AND MANY MORE...</h1>
     </footer>
+
 </body>
 </html>
