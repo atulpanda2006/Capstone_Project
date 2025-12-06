@@ -31,8 +31,8 @@
       
     }
     textarea{
-      max-width:900px;
-      max-height: 1100px;
+      max-width:880px;
+      max-height: 500px;
     }
 
 @keyframes glow {
@@ -59,6 +59,15 @@
       WE VALUE YOUR FEEDBACK
   </h2>
   <textarea></textarea>
+  <button id="submits">Submit</button>
   </div>
+  <script>
+
+let submits = document.getElementById("submits");
+
+submits.addEventListener("click",function(){
+  alert("Feedback submitted.Thanks 🙏")
+})
+  </script>
 </body>
 </html>
