@@ -213,9 +213,6 @@ input{
     padding: 20px 0;
   }
 }
-
- 
-
 body.dark #firstbox,
 body.dark #secondbox,
 body.dark #thirdbox,
@@ -223,23 +220,62 @@ body.dark #fourthbox,
 body.dark #fifthbox,
 body.dark #sixthbox {
   background-color: #333 !important;
-  
   color: white;
+  transition: all 0.5s ease-in-out;
 }
 
 
-body.dark #firstbox:hover,
-body.dark #secondbox:hover,
-body.dark #thirdbox:hover,
-body.dark #fourthbox:hover,
-body.dark #fifthbox:hover,
-body.dark #sixthbox:hover {
- background-color: rgb(194, 167, 197);
-transition: all 1s;
-color:rgb(239, 255, 66);
-/* border: 2px solid rgb(212, 122, 76); */
- box-shadow: 7px 5px 10px tomato;
+body.dark #firstbox h3,
+body.dark #secondbox h3,
+body.dark #thirdbox h3,
+body.dark #fourthbox h3,
+body.dark #fifthbox h3,
+body.dark #sixthbox h3 {
+  opacity: 0.6;
+  color: white;
+  text-decoration: none;
+  
+}
 
+
+body.dark #firstbox:hover h3:nth-child(2),
+body.dark #secondbox:hover h3:nth-child(2),
+body.dark #thirdbox:hover h3:nth-child(2),
+body.dark #fourthbox:hover h3:nth-child(2),
+body.dark #fifthbox:hover h3:nth-child(2),
+body.dark #sixthbox:hover h3:nth-child(2) {
+  opacity: 1;
+  color: yellow;
+  text-decoration: underline;
+  transition-delay: 0s;
+
+}
+
+body.dark #firstbox:hover h3:nth-child(3),
+body.dark #secondbox:hover h3:nth-child(3),
+body.dark #thirdbox:hover h3:nth-child(3),
+body.dark #fourthbox:hover h3:nth-child(3),
+body.dark #fifthbox:hover h3:nth-child(3),
+body.dark #sixthbox:hover h3:nth-child(3) {
+  opacity: 1;
+  color: yellow;
+  text-decoration: underline;
+  transition-delay: 0.5s;
+   
+}
+
+
+body.dark #firstbox:hover h3:nth-child(4),
+body.dark #secondbox:hover h3:nth-child(4),
+body.dark #thirdbox:hover h3:nth-child(4),
+body.dark #fourthbox:hover h3:nth-child(4),
+body.dark #fifthbox:hover h3:nth-child(4),
+body.dark #sixthbox:hover h3:nth-child(4) {
+  opacity: 1;
+  color: yellow;
+  text-decoration: underline;
+  transition-delay: 1s;
+   
 }
 
 
@@ -264,4 +300,10 @@ body.dark #articles:hover{
 body.dark #Contact:hover{
   color: red;
   text-shadow: 2px 2px 5px turquoise;
+}
+body.dark #FormHeading:hover{
+  text-shadow: 3px 4px 4px purple;
+}
+body.dark #bodyhead:hover{
+  text-shadow: 3px 2px 2px #8E44AD;
 }
