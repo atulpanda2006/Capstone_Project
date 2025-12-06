@@ -5,18 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    *{
-      background-color: chartreuse;
+    body{
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
     }
     div{
-      width: 70px;
-      height: 80px;
+      width: 900px;
+      height: 1200px;
+      background-color: olive;
+  
     }
+    h1{
+      text-align: center;
+      text-decoration: underline;
+      color: blueviolet;
+      animation: glow 1.75s ease-in-out  infinite reverse ;
+     
+    }
+    h2{
+      text-align: center;
+      
+    }
+    textarea{
+      max-width:900px;
+      max-height: 1100px;
+    }
+
+@keyframes glow {
+  0%   { color: #00eaff; }   
+  25%  { color: #7b2ff7; }  
+  50%  { color: #ff2e63; }   
+  75%  { color: #f9ed69; }   
+  100% { color: #00eaff; }
+}
+
   </style>
 </head>
 <body>
+  <h1>
+      GET IN TOUCH WITH US.
+    </h1>
   <div>
+    <h2>WHATSAPP:- +91 9876543210</h2>
+    <br>
+    <h2>EMAIL: healthcare@gmail.com</h2>
 
+  <br>
+  <h2>
+      WE VALUE YOUR FEEDBACK
+  </h2>
+  <textarea></textarea>
   </div>
 </body>
 </html>

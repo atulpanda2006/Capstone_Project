@@ -307,3 +307,26 @@ body.dark #FormHeading:hover{
 body.dark #bodyhead:hover{
   text-shadow: 3px 2px 2px #8E44AD;
 }
+
+#theme
+{
+  border: 2px solid black;
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+}
+
+body.dark #theme
+{
+  
+  color: blueviolet;
+  animation: glow 1.75s ease-in-out  infinite reverse ;
+}
+  @keyframes glow {
+  0%   { color: #00eaff; border: 2px solid red; }   
+  25%  { color: #7b2ff7; border: 2px solid lawngreen; }  
+  50%  { color: #ff2e63; border: 2px solid aquamarine; }   
+  75%  { color: #750d9e; border: 2px solid green; }   
+  100% { color: #00eaff; border: 2px solid violet ; }
+}
+
