@@ -13,7 +13,7 @@ body[0].className = "light";
 
 btn.addEventListener("click", function () {
 
-  if (names.value === '' && mail.value === "" && tel.value === '' && dates.value === '') {
+  if (names.value === '' || mail.value === "" || tel.value === '' || dates.value === '') {
     alert("Form is incomplete");
   } 
   else {
